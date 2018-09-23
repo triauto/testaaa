@@ -1,0 +1,178 @@
+@font-face { font-family: DosisLight; src: url('../fonts/Dosis-Light.ttf'); }
+@font-face { font-family: DosisSemiBold; src: url('../fonts/Dosis-SemiBold.ttf'); }
+@font-face { font-family: DosisRegular; src: url('../fonts/Dosis-Regular.ttf'); }
+@font-face { font-family: DosisMedium; src: url('../fonts/Dosis-Medium.ttf'); }
+@font-face { font-family: DosisExtraBold; src: url('../fonts/Dosis-ExtraBold.ttf'); }
+@font-face { font-family: DosisBold; src: url('../fonts/Dosis-Bold.ttf'); }
+.base-gradient {
+    background: rgb(149,83,253);
+    background: -moz-linear-gradient(left, rgba(149,83,253,1) 0%, rgba(83,117,252,1) 34%, rgba(83,117,252,1) 34%, rgba(71,178,246,1) 66%, rgba(120,248,234,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(149,83,253,1) 0%,rgba(83,117,252,1) 34%,rgba(83,117,252,1) 34%,rgba(71,178,246,1) 66%,rgba(120,248,234,1) 100%);
+    background: linear-gradient(to right, rgba(149,83,253,1) 0%,rgba(83,117,252,1) 34%,rgba(83,117,252,1) 34%,rgba(71,178,246,1) 66%,rgba(120,248,234,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9553fd', endColorstr='#78f8ea',GradientType=1 );
+}
+
+.footer-content {
+    padding: 10px;
+}
+
+.title {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto;
+    font-family: DosisSemiBold;
+    font-size: 8vw;
+}
+
+.title1 {
+    text-align: center;
+    font-size: 4vw;
+    font-family: DosisLight;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: DosisRegular;
+}
+
+.title3 {
+    text-align: initial;
+    font-size: 35px;
+    font-family: DosisRegular;
+}
+
+.text-footer-formatter{
+    color: white;
+    font-size: 13px;
+    padding-right: 2vw;
+    padding-top: 6px;
+    font-family: DosisLight;
+}
+
+.pull-right-top {
+    margin: 18px 20px;
+    float: right;
+}
+
+.pull-right-bottom {
+    margin: 18px -11px;
+    float: right;
+}
+
+.round-edge-left {
+    border-radius: 20px;
+}
+
+.round-edge-right {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+}
+
+.text1 {
+    font-size: 30px;
+    font-family: DosisSemiBold;
+
+}
+.text2 {
+    font-size: 15px;
+    color: #b2b2b2;
+    font-family: DosisRegular;
+}
+
+.text3 {
+    font-size: 20px;
+    color: #575757;
+    font-family: DosisRegular;
+}
+
+.email-box{
+    margin: auto;
+    width: auto;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.button-hover {
+    box-shadow: 0px 0px 18px #e3e2e2;
+}
+
+.pl-12 {
+    padding-left: 12rem!important;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+}
+
+.arrow-left-img {
+    margin-left: -30px;
+}
+.arrow-right-img {
+    right: 0px;
+    margin-right: -30px;
+}
+
+.slick-slide {
+    height: auto!important;
+}
+
+
+.icon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    margin-left: -70px;
+}
+
+.icon-flipped-21 {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    margin-left: -21px;
+}
+
+.padding-left-49 {
+    padding-left: 49vw;
+    z-index: 9999!important;
+}
+
+.padding-left-80 {
+    padding-left: 80vw;
+    z-index: 9999!important;
+}
+
+.padding-left-86 {
+    padding-left: 86vw;
+    z-index: 9999!important;
+}
+
+@media (max-width:770px){
+    .slick-slide img {
+        width: inherit;
+    }
+    .col-md-5.col-lg-5.col-12.order-0.order-md-1.order-sm-1{
+        text-align: center;
+    }
+}
+
+@media (min-width:770px){
+    .pull-right-bottom {
+        margin: 18px 20px;
+        float: right;
+    }
+}
+
+.slick-slide img {
+    margin: 0 auto;
+}
